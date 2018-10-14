@@ -1,0 +1,27 @@
+{
+  "display": {
+    "Name": "\"The Master Sword\"",
+    "Lore": [
+      "It's dangerous to go alone.",
+      "Take this. :)"
+    ]
+  },
+  "Enchantments": [
+    {
+      "id": "sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "fire_aspect",
+      "lvl": 2
+    },
+    {
+      "id": "sweeping",
+      "lvl": 3
+    },
+    {
+      "id": "unbreaking",
+      "lvl": 3
+    }
+  ]
+}
