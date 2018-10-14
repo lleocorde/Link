@@ -1,0 +1,29 @@
+{
+  "BlockState": {
+    "Name": "command_block"
+  },
+  "Time": 1,
+  "TileEntityData": {
+    "Command": "/fill ~5 ~-2 ~5 ~15 ~5 ~15 minecraft:oak_planks hollow"
+  },
+  "Passengers": [
+    {
+      "id": "falling_block",
+      "BlockState": {
+        "Name": "command_block"
+      },
+      "Time": 1,
+      "TitleEntityData": {
+        "Command": "/fill ~ ~-1 ~-1 ~ ~50 ~-1 minecraft:redstone_block"
+      },
+      "Passengers": [
+        {
+          "id": "falling_block",
+          "BlockState": {
+            "Name": "redstone_block"
+          }
+        }
+      ]
+    }
+  ]
+}
