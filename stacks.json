@@ -1,11 +1,10 @@
 {
-  "id": "falling_block",
   "BlockState": {
     "Name": "command_block"
   },
   "Time": 1,
   "TileEntityData": {
-    "Command": "/say hi"
+    "Command": "/say one"
   },
   "Passengers": [
     {
@@ -14,15 +13,28 @@
         "Name": "command_block"
       },
       "Time": 1,
-      "TitleEntityData": {
-        "Command": "/fill ~1 ~-1 ~ ~1 ~6 ~ minecraft:redstone_block"
+      "TileEntityData": {
+        "Command": "/say two"
       },
       "Passengers": [
         {
           "id": "falling_block",
           "BlockState": {
-            "Name": "redstone_block"
-          }
+            "Name": "command_block"
+          },
+          "Time": 1,
+          "TileEntityData": {
+            "Command": "/fill ~1 ~-3 ~ ~1 ~ ~ minecraft:redstone_block"
+          },
+          "Passengers": [
+            {
+              "id": "falling_block",
+              "BlockState": {
+                "Name": "redstone_block"
+              },
+              "Time": 1
+            }
+          ]
         }
       ]
     }
