@@ -1,3 +1,3 @@
-## Link
-# My minecraft stuff
+# Link
+## My minecraft stuff
 Just tooling around...
